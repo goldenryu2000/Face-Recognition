@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 cap  = cv2.VideoCapture(0)
-face_cascade = cv2.CascadeClassifier("Haar Cascade/haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 face_data = []
 skip = 0
 file_name = input("Enter Name: ")
